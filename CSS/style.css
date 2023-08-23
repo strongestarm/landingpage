@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+   background:linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
+}
+.headertext, .section1, .section3, .section2, .section4, .section5, .copyright {
+    text-align: center;      
+}
+.section1, .section3, .section2, .section4, .copyright {
+    margin-bottom: 15%;
+}
+.smalltext, .smalltext2, .smalltext3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 5% 5%;   
+}
+header{
+    background-color: white;
+    padding: 5%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+.headertext, .maintext5{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;  
+}
+.navigationbar{
+    display: none;
+}
+#situpguy, #trainerpicture, #girlrunning, #womenexcersie{
+width: 100%;  
+}
+.maintext{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    margin:  0 5%;   
+}
+.bold{
+    font-weight: bold;
+}
+#contact, #Getnow{
+margin-top: 5%;    
+padding: 20px 70px;
+background-color: #4B5092;
+border-radius: 30px;
+color: white;
+border: none;
+}
+#contact, #Getnow, #signup{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.maintext2{
+    text-align: left;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57px;
+    margin: 0 5%;   
+}
+  .smalltext2{
+    text-align: left;
+}
+.backround2{
+    background-color: #F2F8FF; 
+    padding: 10% 0;
+}
+.section3{
+    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+}
+.age{
+    margin-bottom: 5%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+#trainerpicture{
+    margin: -0.5%;
+}
+#signup{
+    margin-top: 10%;    
+    padding: 20px 50px;
+    background-color: white;
+    border-radius: 30px;
+    color:black;
+    border: none;
+}
+.trainer{
+    padding-top: 10%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+.section4{
+    padding-bottom: 10% ;
+}
+.maintext4{
+    font-weight: 500;
+    font-size: 48px;
+    text-align: left;
+    margin: 5%;
+}
+.container{
+    margin: 5%;  
+    border-radius: 30px;
+    padding: 13% 7% ; 
+}
+.smalltext4{
+    text-align: left;   
+}
+.smalltext4 h3{
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
+   margin-bottom:2% ; 
+   width: 80%;
+}
+.smalltext4 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 80%;   
+}
+.tab1, .tab4{
+   background-color: #E4F0FF ; 
+}
+.tab2, .tab3{
+    background: rgba(114, 122, 239, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section5 ul{
+    margin-top: 5%;
+    padding-left: 0;
+}
+li{
+    list-style-type:none ;
+    padding-left: 0;
+    padding-bottom: 5%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+input[type="email"]{
+    margin-bottom: 30px; 
+    background: url("https://assets.codepen.io/6060109/icon-send.png") 95% 50%    no-repeat;
+    height:30px;
+    padding: 0  50px 0 10px; 
+}
+.smalltext5{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.socialmedialinks{
+    margin: 3%;
+}
+.email h3{
+    margin-bottom: 2%;
+}
+.social{
+    margin: 5%;
+}
+.copyright{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        box-shadow: none;
+    }
+    .section1, .section2 ,.section3{
+        display: flex;
+        width: 100%;        
+    }
+    .section1, .section3{
+        flex-direction: row-reverse; 
+        text-align: left;
+    }
+    .section1, .section2, .section3,.section4, .section5{
+        margin-bottom: 5%;   
+    }
+    .section1{
+        height: 600px;
+        align-items: center;
+    }
+    .headertext{
+        margin-left: 7%;
+    }
+    .navigationbar{
+        display: flex; 
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;  
+        width: 35%;      
+    }
+    .navigationbar li {
+        padding: 0 5%;   
+    }
+    .section1 .maincontainer{
+        width: 50%;
+    }
+    .maintext, .smalltext, .smalltext3, .trainer{
+        text-align: left;   
+    }
+    .maintext{
+        font-size: 72px;  
+    }
+    .maintext, .smalltext{
+        
+    margin-left: 15%;
+    }
+
+   .section2{
+       height: 425px;
+       justify-content: space-around;
+       align-items: center;
+       margin-bottom: 50px;
+    }
+    #womenexcersie, #situpguy {
+        width: 700px;
+    }
+   .backround2{
+       padding: 2%;
+       width: 550px ;
+       border-radius: 70px;
+   }
+   .section3{
+       justify-content: space-around;
+       height: 650px;
+   }
+   .section3 .maincontainer{
+    width: 40%;
+   }
+   .age{
+       margin-top: 5%;
+   }
+   .smalltext3{
+    margin: 0;
+    padding-right:7% ;
+   }
+   .trainer{
+       margin-top: 10%;
+   }
+   #trainerpicture{
+    width: 550px;
+    margin: 0;
+   }
+   .section4{
+     width: 100%;
+    height: 100%;
+    text-align: right;
+    position: relative 
+   }
+   .maintext4{
+    margin-left: 6%;
+    width: 50%;
+   }
+  .maincontainer4{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    margin-left:5%; 
+  }
+    .container{
+    width: 45%;
+    margin: 2%; 
+    padding: 0;  
+  }
+    .smalltext4{
+     padding: 20%;
+  }
+  #girlrunning{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    right: 5%;
+    bottom: 22%;
+  }
+  #Getnow{
+    position: absolute;
+    bottom: 95%; 
+    right: 5%;
+ }
+ .section4 h3{
+    margin-bottom: 5%;
+ }
+
+.section5{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: unset; 
+    margin: 0;
+ }
+
+ .smalltext5{
+    width: 30%;
+ }
+ .smalltext5 ul{
+   
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 150px;  
+
+}
+
+.socialmedialinks{
+    display: none;
+} 
+.copyright{
+    text-align: unset;
+    margin:0  0 7% 7%;   
+}
+
+}
+
